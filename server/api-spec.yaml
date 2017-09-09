@@ -1,0 +1,147 @@
+# Dies ist die API für das JavaEE-Projekt
+swagger: '2.0'
+info:
+  title: Beacon API
+  description: Zur erfolgreichen Kommunikation mit den Beacons für das Navigationssystem
+  version: "0.1"
+# the domain of the service
+host: localhost
+# array of all schemes that your API supports
+schemes:
+  - http
+# will be prefixed to all paths
+basePath: /api/0.1
+produces:
+  - application/json
+paths:
+  /tokens/list:
+    get:
+      summary: Beacon-Liste
+      description: |
+        Es werden alle derzeit bekannten Beacons zurückgegeben.
+      tags:
+        - Beacons
+      responses:
+        200:
+          description: Ein Array von Beacons
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Beacon'
+        default:
+          description: Unerwarteter Fehler
+          schema:
+            $ref: '#/definitions/Error'
+    post:
+      summary: Beacon hinzufügen
+      description: |
+        Es wird genau ein Beacon zu der Liste der Beacons hinzugefügt.
+      parameters:
+        - name: body
+          in: body
+          description: Das hinzuzufügende Beacon
+          required: true
+          schema:
+            $ref: '#/definitions/Beacon'
+      tags:
+        - Beacons
+      responses:
+        200:
+          description: Der Beacon wurde erfolgreich hinzugefügt
+        default:
+          description: Unerwarteter Fehler
+          schema:
+            $ref: '#/definitions/Error'
+  /lectures:
+    get:
+      summary: Lecture-Liste
+      description: |
+        Es werden alle derzeit bekannten Lectures zurückgegeben.
+      tags:
+        - Lectures
+      responses:
+        200:
+          description: Ein Array von Lectures
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Lecture'
+        default:
+          description: Unerwarteter Fehler
+          schema:
+            $ref: '#/definitions/Error'
+    post:
+      summary: Lecture hinzufügen
+      description: |
+        Es wird genau eine Lecture zu der Liste der Lectures hinzugefügt.
+      parameters:
+        - name: body
+          in: body
+          description: Die hinzuzufügende VL
+          required: true
+          schema:
+            $ref: '#/definitions/Lecture'
+      tags:
+        - Lectures
+      responses:
+        200:
+          description: Die VL wurde erfolgreich hinzugefügt
+        default:
+          description: Unerwarteter Fehler
+          schema:
+            $ref: '#/definitions/Error'
+
+definitions:
+  Beacon:
+    type: object
+    properties:
+      beaconId:
+        type: string
+        description: Eindeutiger Identifier des Beacons
+      longitude:
+        type: number
+        format: double
+        description: Die Longitude der Beacon-Position
+      latitude:
+        type: number
+        format: double
+        description: Die Latitude der Beacon-Position
+      height:
+        type: number
+        format: double
+        description: Die Höhe der Beacon-Position über dem Meeresspiegel
+      name:
+        type: string
+        description: Ein Name für diesen Beacon, welcher die menschliche Identifikation der Beacons erleichtert
+      room:
+        type: integer
+        format: uint32
+        description: Die Nummer des Raumes in dem sich der Beacon befindet
+  Error:
+    type: object
+    properties:
+      code:
+        type: integer
+        format: int32
+      message:
+        type: string
+      fields:
+        type: string
+  Lecture:
+    type: object
+    properties:
+      time:
+        type: string
+        description: Startzeit der Vorlesung
+      day:
+        type: string
+        description: Tag der VL
+      subject:
+        type: string
+        description: VL Thema
+      tutor:
+        type: string
+        description: Tutor der VL
+      room:
+        type: string
+        description: room number as string

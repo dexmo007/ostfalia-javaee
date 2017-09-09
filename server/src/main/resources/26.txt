@@ -1,0 +1,137 @@
+[
+{
+
+"room":"26",
+"time":"8:15",
+"day":"mo",
+"subject":"IE-Einführung Datenanalyse",
+"tutor":"Prof. Dr. F. Höppner"
+},
+
+{
+
+"room":"26",
+"time":"8:15",
+"day":"do",
+"subject":"Mathe-Cafe 1. Sem",
+"tutor":"Dr. S. Bellmer"
+},
+
+{
+
+"room":"26",
+"time":"8:15",
+"day":"fr",
+"subject":"Ma-IE-Statistische Methoden",
+"tutor":"Prof. Dr. F. Klawonn"
+},
+
+{
+
+"room":"26",
+"time":"10:00",
+"day":"mo",
+"subject":"IE-Einführung Datenanalyse",
+"tutor":"Prof. Dr. F. Höppner"
+},
+
+{
+
+"room":"26",
+"time":"10:00",
+"day":"do",
+"subject":"Theoretische Informatik",
+"tutor":"5cr"
+},
+
+{
+
+"room":"26",
+"time":"10:00",
+"day":"fr",
+"subject":"Ma-IE-Statistische Methoden",
+"tutor":"Prof. Dr. F. Klawonn"
+},
+
+{
+
+"room":"26",
+"time":"12:00",
+"day":"mo",
+"subject":"IE-Datenqualität DataWarehouse",
+"tutor":"Prof. Dr. F. Höppner"
+},
+
+{
+
+"room":"26",
+"time":"12:00",
+"day":"do",
+"subject":"Theoretische Informatik",
+"tutor":"5cr"
+},
+
+{
+
+"room":"26",
+"time":"14:15",
+"day":"mo",
+"subject":"IE-Datenqualität DataWarehouse",
+"tutor":"Prof. Dr. F. Höppner"
+},
+
+{
+
+"room":"26",
+"time":"14:15",
+"day":"di",
+"subject":"BBS-Kompakt - D2",
+"tutor":"Nur dualer Studiengang!"
+},
+
+{
+
+"room":"26",
+"time":"14:15",
+"day":"do",
+"subject":"Business IS",
+"tutor":"5cr"
+},
+
+{
+
+"room":"26",
+"time":"16:00",
+"day":"mo",
+"subject":"I-IE-Datenqualität DataWarehouse - Tutorium",
+"tutor":"Prof. Dr. F. Höppner"
+},
+
+{
+
+"room":"26",
+"time":"16:00",
+"day":"di",
+"subject":"BBS-Kompakt - D2",
+"tutor":"Nur dualer Studiengang!"
+},
+
+{
+
+"room":"26",
+"time":"16:00",
+"day":"do",
+"subject":"Requirements Test-Management",
+"tutor":"5cr"
+},
+
+{
+
+"room":"26",
+"time":"16:00",
+"day":"undefined",
+"subject":"Requirements Test-Management",
+"tutor":"5cr"
+},
+
+]

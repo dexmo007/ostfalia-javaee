@@ -1,0 +1,191 @@
+[
+{
+
+"room":"252",
+"time":"8:15",
+"day":"mo",
+"subject":"Algorithmen und Datenstrukturen - VL",
+"tutor":"Prof. Dr. M. Huhn"
+},
+
+{
+
+"room":"252",
+"time":"8:15",
+"day":"di",
+"subject":"Grundlagen des Programmierens - VL",
+"tutor":"Prof. Dr. I. Schiering"
+},
+
+{
+
+"room":"252",
+"time":"8:15",
+"day":"mi",
+"subject":"Algorithmen und Datenstrukturen - VL",
+"tutor":"Prof. Dr. M. Huhn"
+},
+
+{
+
+"room":"252",
+"time":"8:15",
+"day":"do",
+"subject":"Rechnerstrukturen - VL",
+"tutor":"Dipl.-Ing. G. Kircher"
+},
+
+{
+
+"room":"252",
+"time":"8:15",
+"day":"fr",
+"subject":"Betriebssysteme und Rechnernetze",
+"tutor":"Prof. Dr. S. Gharaei"
+},
+
+{
+
+"room":"252",
+"time":"10:00",
+"day":"mo",
+"subject":"Datenbanken",
+"tutor":"Prof. Dr. K. Gutenschwager"
+},
+
+{
+
+"room":"252",
+"time":"10:00",
+"day":"di",
+"subject":"Grundlagen des Programmierens-Tutorium",
+"tutor":"Prof. Dr. I. Schiering"
+},
+
+{
+
+"room":"252",
+"time":"10:00",
+"day":"mi",
+"subject":"Diskrete Strukturen",
+"tutor":"Dr. U. Priss"
+},
+
+{
+
+"room":"252",
+"time":"10:00",
+"day":"do",
+"subject":"Diskrete Strukturen",
+"tutor":"Dr. U. Priss"
+},
+
+{
+
+"room":"252",
+"time":"10:00",
+"day":"fr",
+"subject":"Betriebssysteme und Rechnernetze",
+"tutor":"Prof. Dr. S. Gharaei"
+},
+
+{
+
+"room":"252",
+"time":"12:00",
+"day":"mo",
+"subject":"Mathematik für Informatik",
+"tutor":"Dipl.-Inf. A. Ludwig"
+},
+
+{
+
+"room":"252",
+"time":"12:00",
+"day":"di",
+"subject":"Computer Mathematik",
+"tutor":"Prof. Dr. W. Pekrun"
+},
+
+{
+
+"room":"252",
+"time":"12:00",
+"day":"do",
+"subject":"Grundlagen des Programmierens - VL",
+"tutor":"Prof. Dr. I. Schiering"
+},
+
+{
+
+"room":"252",
+"time":"12:00",
+"day":"fr",
+"subject":"Computer Mathematik",
+"tutor":"Prof. Dr. W. Pekrun"
+},
+
+{
+
+"room":"252",
+"time":"14:15",
+"day":"mo",
+"subject":"Technische Grundlagen der Informatik",
+"tutor":"Prof. Dr. R. Gerndt"
+},
+
+{
+
+"room":"252",
+"time":"14:15",
+"day":"mi",
+"subject":"Softwaretechnik",
+"tutor":"Prof. Dr. B. Müller"
+},
+
+{
+
+"room":"252",
+"time":"14:15",
+"day":"do",
+"subject":"Programmieren BInf - VL",
+"tutor":"Prof. Dr. F. Höppner"
+},
+
+{
+
+"room":"252",
+"time":"14:15",
+"day":"fr",
+"subject":"Softwaretechnik",
+"tutor":"Prof. Dr. B. Müller"
+},
+
+{
+
+"room":"252",
+"time":"16:00",
+"day":"di",
+"subject":"Technische Grundlagen der Informatik",
+"tutor":"Prof. Dr. R. Gerndt"
+},
+
+{
+
+"room":"252",
+"time":"16:00",
+"day":"mi",
+"subject":"Datenbanken",
+"tutor":"Prof. Dr. K. Gutenschwager"
+},
+
+{
+
+"room":"252",
+"time":"16:00",
+"day":"do",
+"subject":"Programmieren BInf - VL",
+"tutor":"Prof. Dr. F. Höppner"
+},
+
+]

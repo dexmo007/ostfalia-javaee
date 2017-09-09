@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+<h:head>
+	<title>Hello</title>
+	<link rel="stylesheet" type="text/css" href="semantic-ui/semantic.min.css" />
+	<link rel="stylesheet" type="text/css" href="leaflet/leaflet.css" />
+	<script src="semantic-ui/semantic.min.js"></script>
+	<script src="leaflet/leaflet.js"></script>
+	<script src="script.js"></script>
+</h:head>
+
+<h:body>
+	<div id="beaconmap" style="height: 500px"></div>
+	<button class="ui button" id="map_eg" value="Erdgeschoss" />
+	<button class="ui button" id="map_1og" value="1. Obergeschoss" />
+	<button class="ui button" id="map_dg" value="Dachgeschoss" />
+	<div class="ui input">
+		<h:form>
+			<table class="ui celled table">
+				<thead><tr>
+					<th>Beacon ID</th>
+					<th>Longitude</th>
+					<th>Latitude</th>
+					<th>Height</th>
+					<th>Name</th>
+					<th>Room</th>
+					<th>Action</th>
+				</tr></thead>
+				<tbody>
+					<c:forEach var="i" items="#{web.listBeacons()}"><tr>
+						<td>#{i.beaconId}</td>
+						<td>#{i.longitude}</td>
+						<td>#{i.latitude}</td>
+						<td>#{i.height}</td>
+						<td>#{i.name}</td>
+						<td>#{i.room}</td>
+						<td><h:commandButton class="ui negative button" value="Delete" action="#{web.deleteBeacon(i.beaconId)}" /></td>
+					</tr></c:forEach>
+				</tbody>
+				<tfoot><tr>
+					<th><h:inputText size="10" required="true" value="#{addBeacon.beacon.beaconId}" /></th>
+					<th><h:inputText size="10" required="true" value="#{addBeacon.beacon.longitude}" /></th>
+					<th><h:inputText size="10" required="true" value="#{addBeacon.beacon.latitude}" /></th>
+					<th><h:inputText size="10" required="true" value="#{addBeacon.beacon.height}" /></th>
+					<th><h:inputText size="10" required="true" value="#{addBeacon.beacon.name}" /></th>
+					<th><h:inputText size="10" required="true" value="#{addBeacon.beacon.room}" /></th>
+					<th><h:commandButton class="ui primary button" value="Add" action="#{addBeacon.click()}" /></th>
+				</tr></tfoot>
+			</table>
+		</h:form>
+	</div>
+</h:body>
+
+</html>

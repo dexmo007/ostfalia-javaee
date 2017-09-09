@@ -1,0 +1,173 @@
+[
+{
+
+"room":"152",
+"time":"8:15",
+"day":"mo",
+"subject":"Teamprojekt",
+"tutor":"Prof. Dr. D. Justen"
+},
+
+{
+
+"room":"152",
+"time":"8:15",
+"day":"mi",
+"subject":"WPF-Simulation in Produktion und Logistik",
+"tutor":"5cr"
+},
+
+{
+
+"room":"152",
+"time":"8:15",
+"day":"do",
+"subject":"Ma-System-Engineering Projekt",
+"tutor":"Prof. Dr. U. Klages"
+},
+
+{
+
+"room":"152",
+"time":"10:00",
+"day":"mo",
+"subject":"Teamprojekt",
+"tutor":"Prof. Dr. D. Justen"
+},
+
+{
+
+"room":"152",
+"time":"10:00",
+"day":"mi",
+"subject":"WPF-Simulation in Produktion und Logistik",
+"tutor":"5cr"
+},
+
+{
+
+"room":"152",
+"time":"10:00",
+"day":"do",
+"subject":"Ma-System-Engineering Projekt",
+"tutor":"Prof. Dr. U. Klages"
+},
+
+{
+
+"room":"152",
+"time":"12:00",
+"day":"di",
+"subject":"SE-Projekt",
+"tutor":"5cr"
+},
+
+{
+
+"room":"152",
+"time":"12:00",
+"day":"mi",
+"subject":"Datenbanken - Tutorium",
+"tutor":"Hr. M. Sahm, Prof. Dr. K. Gutenschwager"
+},
+
+{
+
+"room":"152",
+"time":"12:00",
+"day":"fr",
+"subject":"WPF-Embedded Linux",
+"tutor":"2,5cr"
+},
+
+{
+
+"room":"152",
+"time":"14:15",
+"day":"mo",
+"subject":"UWPF-Wissenschaftstheorie",
+"tutor":"2,5cr"
+},
+
+{
+
+"room":"152",
+"time":"14:15",
+"day":"di",
+"subject":"SE-Projekt",
+"tutor":"5cr"
+},
+
+{
+
+"room":"152",
+"time":"14:15",
+"day":"do",
+"subject":"ZS-Polnisch",
+"tutor":"undefined"
+},
+
+{
+
+"room":"152",
+"time":"14:15",
+"day":"fr",
+"subject":"WPF-Embedded Linux",
+"tutor":"2,5cr"
+},
+
+{
+
+"room":"152",
+"time":"16:00",
+"day":"mi",
+"subject":"WPF-Java EE",
+"tutor":"5cr"
+},
+
+{
+
+"room":"152",
+"time":"16:00",
+"day":"do",
+"subject":"Fr. Nohn",
+"tutor":"undefined"
+},
+
+{
+
+"room":"152",
+"time":"16:00",
+"day":"fr",
+"subject":"UML für Softwaretechnik",
+"tutor":"5cr"
+},
+
+{
+
+"room":"152",
+"time":"17:45",
+"day":"di",
+"subject":"UWPF-Interdisziplinäres Projekt",
+"tutor":"5cr"
+},
+
+{
+
+"room":"152",
+"time":"17:45",
+"day":"mi",
+"subject":"WPF-Java EE",
+"tutor":"5cr"
+},
+
+{
+
+"room":"152",
+"time":"17:45",
+"day":"fr",
+"subject":"UML für Softwaretechnik",
+"tutor":"5cr"
+},
+
+]

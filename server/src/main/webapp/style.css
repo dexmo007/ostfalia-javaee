@@ -1,0 +1,19 @@
+.pusher, #beaconmap {
+	height: 100%;
+}
+
+#addbeacon {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+#roombuttons {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+.hidecursor * {
+	cursor: none !important
+}

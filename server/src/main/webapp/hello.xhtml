@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+	xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+<h:head>
+	<title>Hello</title>
+	<link rel="stylesheet" type="text/css" href="semantic-ui/semantic.min.css" />
+	<link rel="stylesheet" type="text/css" href="leaflet/leaflet.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="jQuery/jquery-2.2.4.min.js"></script>
+	<script src="semantic-ui/semantic.min.js"></script>
+	<script src="leaflet/leaflet.js"></script>
+	<script src="script.js"></script>
+</h:head>
+
+<h:body>
+	<div class="ui right sidebar vertical menu input">
+		<h:form>
+			<div class="item"><h:inputText p:placeholder="Beacon ID" required="true" value="#{addBeacon.beacon.beaconId}" /></div>
+			<div class="item"><h:inputText p:placeholder="Longitude" required="true" value="#{addBeacon.beacon.longitude}" /></div>
+			<div class="item"><h:inputText p:placeholder="Latitude" required="true" value="#{addBeacon.beacon.latitude}" /></div>
+			<div class="item"><h:inputText p:placeholder="Height" required="true" value="#{addBeacon.beacon.height}" /></div>
+			<div class="item"><h:inputText p:placeholder="Name" required="true" value="#{addBeacon.beacon.name}" /></div>
+			<div class="item"><h:inputText p:placeholder="Room" required="true" value="#{addBeacon.beacon.room}" /></div>
+			<div class="item"><h:commandButton class="ui primary button" value="Add" action="#{addBeacon.click()}" /></div>
+		</h:form>
+	</div>
+	<div class="pusher">
+		<div id="beaconmap"></div>
+		<button class="circular positive ui icon button" id="addbeacon" data-content="Beacon hinzufügen">
+			<i class="icon plus"></i>
+		</button>
+		<div id="roombuttons"  class="ui selection dropdown">
+			<input type="hidden" value="floor0_eg_1" />
+			<i class="dropdown icon"></i>
+			<div class="default text"></div>
+			<div class="menu">
+				<div class="item" data-value="floor0_eg_1">Erdgeschoss</div>
+				<div class="item" data-value="floor1_1og_2">1. Obergeschoss</div>
+				<div class="item" data-value="floor2_dg_2">Dachgeschoss</div>
+			</div>
+		</div>
+		<div class="ui input" style="display: none">
+			<h:form>
+				<table class="ui celled table">
+					<thead><tr>
+						<th>Beacon ID</th>
+						<th>Longitude</th>
+						<th>Latitude</th>
+						<th>Height</th>
+						<th>Name</th>
+						<th>Room</th>
+						<th>Action</th>
+					</tr></thead>
+					<tbody id="beaconlist">
+						<c:forEach var="i" items="#{web.listBeacons()}"><tr>
+							<td>#{i.beaconId}</td>
+							<td>#{i.longitude}</td>
+							<td>#{i.latitude}</td>
+							<td>#{i.height}</td>
+							<td>#{i.name}</td>
+							<td>#{i.room}</td>
+							<td><h:commandButton class="ui negative button" value="Delete" action="#{web.deleteBeacon(i.beaconId)}" /></td>
+						</tr></c:forEach>
+					</tbody>
+				</table>
+			</h:form>
+		</div>
+	</div>
+</h:body>
+
+</html>

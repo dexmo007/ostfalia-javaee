@@ -1,0 +1,182 @@
+[
+{
+
+"room":"127",
+"time":"8:15",
+"day":"mo",
+"subject":"Mathe-Cafe 3. Sem.",
+"tutor":"Dr. S. Bellmer"
+},
+
+{
+
+"room":"127",
+"time":"8:15",
+"day":"do",
+"subject":"Qualität Zuverlässigkeit",
+"tutor":"5cr"
+},
+
+{
+
+"room":"127",
+"time":"10:00",
+"day":"mo",
+"subject":"Mathe-Cafe 2. Sem.",
+"tutor":"Dr. S. Bellmer"
+},
+
+{
+
+"room":"127",
+"time":"10:00",
+"day":"di",
+"subject":"Mathe-Repetitorium",
+"tutor":"Dr. S. Bellmer"
+},
+
+{
+
+"room":"127",
+"time":"10:00",
+"day":"mi",
+"subject":"Programmieren BItm + BWinf - VL",
+"tutor":"Ausweichraum wg. Bohrarbeiten in KW 17."
+},
+
+{
+
+"room":"127",
+"time":"10:00",
+"day":"fr",
+"subject":"Qualität Zuverlässigkeit",
+"tutor":"5cr"
+},
+
+{
+
+"room":"127",
+"time":"12:00",
+"day":"mo",
+"subject":"Fremdsprache auf erhöhtem Niveau - Winf + ITM - Kurs A",
+"tutor":"undefined"
+},
+
+{
+
+"room":"127",
+"time":"12:00",
+"day":"di",
+"subject":"Fremdsprache auf erhöhtem Niveau -Binf - Kurs B",
+"tutor":"undefined"
+},
+
+{
+
+"room":"127",
+"time":"12:00",
+"day":"do",
+"subject":"Komplexität und Berechenbarkeit",
+"tutor":"Prof. Dr. rer. nat. habil. T. Sander"
+},
+
+{
+
+"room":"127",
+"time":"12:00",
+"day":"fr",
+"subject":"Ma-Künstliche Intelligenz",
+"tutor":"Prof. Dr. I. Schiering"
+},
+
+{
+
+"room":"127",
+"time":"14:15",
+"day":"mo",
+"subject":"Fremdsprache auf erhöhtem Niveau - Winf + ITM - Kurs A",
+"tutor":"undefined"
+},
+
+{
+
+"room":"127",
+"time":"14:15",
+"day":"di",
+"subject":"Fremdsprache auf erhöhtem Niveau -Binf - Kurs B",
+"tutor":"undefined"
+},
+
+{
+
+"room":"127",
+"time":"14:15",
+"day":"mi",
+"subject":"Programmieren BItm + BWinf - VL",
+"tutor":"Ausweichraum wg. Bohrarbeiten in KW 17."
+},
+
+{
+
+"room":"127",
+"time":"14:15",
+"day":"do",
+"subject":"Komplexität und Berechenbarkeit",
+"tutor":"Prof. Dr. rer. nat. habil. T. Sander"
+},
+
+{
+
+"room":"127",
+"time":"14:15",
+"day":"fr",
+"subject":"Ma-Numerische Algorithmen",
+"tutor":"M.Sc. S. Dröschler"
+},
+
+{
+
+"room":"127",
+"time":"16:00",
+"day":"mo",
+"subject":"(WPF-)-BWL",
+"tutor":"5cr"
+},
+
+{
+
+"room":"127",
+"time":"16:00",
+"day":"mi",
+"subject":"Ma-Künstliche Intelligenz",
+"tutor":"Prof. Dr. I. Schiering"
+},
+
+{
+
+"room":"127",
+"time":"16:00",
+"day":"do",
+"subject":"Ma-Entwicklung  Komplexer Softwaresysteme",
+"tutor":"Prof. Dr. B. Müller"
+},
+
+{
+
+"room":"127",
+"time":"17:45",
+"day":"mo",
+"subject":"(WPF-)-BWL",
+"tutor":"5cr"
+},
+
+{
+
+"room":"127",
+"time":"17:45",
+"day":"do",
+"subject":"Ma-Entwicklung  Komplexer Softwaresysteme",
+"tutor":"Prof. Dr. B. Müller"
+},
+
+]

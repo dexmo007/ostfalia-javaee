@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">JavaEE Android</string>
+    <string name="btn_main_start">Starte Navigation</string>
+    <string name="btn_main_settings">Einstellungen</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="nivDescription">Grundriss Darstellung</string>
+    <string name="uninitialised">Initialisierungsfehler</string>
+    <string-array name="floors_array">
+        <item>Erdgeschoss</item>
+        <item>1. Obergeschoss</item>
+        <item>Dachgeschoss</item>
+    </string-array>
+    <string name="title_activity_settings">Einstellungen</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Strings related to Testing -->
+
+    <string-array name="mock_beacons_ids">
+        <item>20cae8a0-a9cf-11e3-a5e2-0800200c9a66 26 36847</item>
+        <item>20cae8a0-a9cf-11e3-a5e2-0800200c9a66 88 10</item>
+        <item>20cae8a0-a9cf-11e3-a5e2-0800200c9a66 88 12</item>
+        <item>20cae8a0-a9cf-11e3-a5e2-0800200c9a66 24 8706</item>
+        <item>20cae8a0-a9cf-11e3-a5e2-0800200c9a66 88 13</item>
+        <item>NOTAACTUALBEACON</item>
+    </string-array>
+
+    <string-array name="mock_beacons_latitudes">
+        <item>52.179001012981246</item>
+        <item>52.17884640889501</item>
+        <item>52.17881844852418</item>
+        <item>52.17881885970624</item>
+        <item>52.178783909218254</item>
+        <item>52.17878966577111</item>
+    </string-array>
+
+    <string-array name="mock_beacons_longitudes">
+        <item>10.559961497783661</item>
+        <item>10.559944063425064</item>
+        <item>10.559742897748947</item>
+        <item>10.559690594673157</item>
+        <item>10.559666454792023</item>
+        <item>10.560008436441422</item>
+    </string-array>
+
+    <string-array name="mock_beacons_distances">
+        <item>0.42</item>
+        <item>0.34</item>
+        <item>0.385</item>
+        <!--<item>-1</item>
+        <item>-1</item>
+        <item>-1</item>-->
+        <item>-1</item>
+        <item>-1</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="map_geo_bounds_upperleft_lat">52.179297884</string>
+    <string name="map_geo_bounds_upperleft_lon">10.558656603</string>
+    <string name="map_geo_bounds_lowerright_lat">52.178659732</string>
+    <string name="map_geo_bounds_lowerright_lon">10.560134500</string>
+
+    <!-- Strings related to Errors -->
+
+    <string name="msg_image_loading_error">Problem loading bitmap.</string>
+    <string name="msg_no_bluetooth_error">Device does not support bluetooth.</string>
+    <string name="msg_no_ranging_error">Ranging initialisation failed.</string>
+
+</resources>
